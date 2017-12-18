@@ -1,7 +1,7 @@
 {
   "name": "safe-password",
   "author": "Anton Repin <ar@xdire.io>",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "licence": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -16,7 +16,7 @@
   "scripts": {
     "prepare": "npm run build",
     "build": "tsc",
-    "test": "mocha -r ts-node/register test/**/*.spec.ts"
+    "test": "tsc && mocha -r ts-node/register test/**/*.spec.ts"
   },
   "devDependencies": {
     "typescript": "^2.6.*",
