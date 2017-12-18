@@ -1,0 +1,30 @@
+{
+  "name": "safe-password",
+  "author": "Anton Repin <ar@xdire.io>",
+  "version": "0.1.0",
+  "licence": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "node": "^6.12.2",
+    "ts-exceptions": "^1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/node-common/safe-password"
+  },
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc",
+    "test": "mocha -r ts-node/register test/**/*.spec.ts"
+  },
+  "devDependencies": {
+    "typescript": "^2.6.*",
+    "@types/node": "^8.5.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "ts-node": "^4.0.2",
+    "@types/chai": "^4.0.10",
+    "@types/mocha": "^2.2.44"
+  }
+}
