@@ -1,12 +1,11 @@
 {
   "name": "safe-password",
   "author": "Anton Repin <ar@xdire.io>",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "licence": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "dependencies": {
-    "node": "^6.12.2",
     "ts-exceptions": "^1.0.1"
   },
   "repository": {
